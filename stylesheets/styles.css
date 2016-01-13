@@ -40,4 +40,5 @@ caption,th{text-align:left;}
 h1,h2,h3,h4,h5,h6{color:#eaeaea;}
 h1{font-size:2.0rem;}
 hr {height: 20px; background: #efefef; }
-.plan{font-size:48px;line-height:48px; color:#eaeaea; margin:0 auto;}
+.plan{font-size:48px;line-height:48px; color:#eaeaea; margin:0 auto;width:70rem;}
+.stat{font-size:40px;line-height:40px; color:#eaeaea;}

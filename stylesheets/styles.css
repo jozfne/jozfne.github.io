@@ -34,8 +34,7 @@ body {
   margin:0 auto;
   border-radius:3rem;
   height:71rem;
-  line-height:7rem;
-  background-color:#eaeaea;
+  line-height:1.5rem;
 }
 caption,th{text-align:left;}
 h1,h2,h3,h4,h5,h6{color:#eaeaea;}

@@ -29,6 +29,14 @@ body {
   -webkit-font-smoothing: antialiased;
   line-height: 1;
 }
+.warp{
+  width:71rem;
+  margin:0 auto;
+  border-radius:3rem;
+  height:71rem;
+  background-color:#eaeaea;
+}
+
 ol,
 ul {
   list-style: none;

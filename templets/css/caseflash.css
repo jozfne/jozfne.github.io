@@ -1,0 +1,13 @@
+﻿.DB_tab25 {width:100%;height:585px;}
+.DB_tab25  ul,li{list-style:none;margin:0;padding:0}
+.DB_tab25 .bodys{width:100%;height:585px;overflow:hidden;position:absolute;}
+.DB_tab25 .DB_bgSet{position:relative;}
+.DB_tab25 .DB_bgSet li{position:absolute;width:100%;height:585px;display:none;}
+.DB_tab25 .DB_imgSet{position:absolute;width:1200px;left:50%;margin-left:-600px;}
+
+
+
+
+
+
+

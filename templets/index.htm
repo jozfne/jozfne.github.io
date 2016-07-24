@@ -1,0 +1,516 @@
+﻿ 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link href="{dede:global.cfg_templets_skin/}/css/web_style.css" rel="stylesheet" type="text/css" />
+<link href="{dede:global.cfg_templets_skin/}/css/style.css" rel="stylesheet" type="text/css" />
+<link href="{dede:global.cfg_templets_skin/}/css/flash.css" rel="stylesheet" type="text/css" />
+
+<title>{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:global.cfg_keywords/}" />
+<meta name="description" content="{dede:global.cfg_description/}" />
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery.animate-colors-min.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery.db_tabmotionbanner.min.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/menus.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/indexaction.js"></script>
+<!--[if IE 6]>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/dd_belatedpng.js"></script>
+<script type="text/javascript" >
+DD_belatedPNG.fix('img,.div');
+</script>
+<![endif]-->
+
+</head>
+<body class="IndexBgColor">
+<div class="head" id="Head">
+	<div class="heads">
+		<div class="HeadTopLeft"></div>
+		<div class="HeadTopRight"></div>
+		<div class="logo"><a href="/"><img src="{dede:global.cfg_templets_skin/}/picture/logo.jpg" alt="" border="0" /></a></div>
+		<div class="banner"><img src="{dede:global.cfg_templets_skin/}/picture/banner.jpg"  alt="" /></div>		
+		<div class="nav">
+			<ul>
+				<li class="cur"><a href="/">网站首页</a></li>
+              {dede:channel type='top' row='6' currentstyle="<li class='cur'><a href='~typelink~' ~rel~>~typename~</a></li>"}
+				<li><a href="[field:typeurl/]">[field:typename/]</a></li>
+              {/dede:channel}  
+			</ul>
+		 <div class="curBg"></div>
+    <div class="cls"></div>
+		</div>
+	</div>
+</div>
+
+<ul class="F_nav">
+	<li class="pro"></li>
+	<li class="news"></li>
+	<li class="ser"></li>
+	<li class="con"></li>
+	<li class="job"></li>
+	<li class="Head"></li>
+</ul>
+
+<div class="flash">
+
+<div class="DB_tab25">
+	<div class="bodys">
+	<ul class="DB_bgSet">
+		<li style="background:url({dede:global.cfg_templets_skin/}/picture/0.jpg) no-repeat center top;"></li>
+		<li style="background:url({dede:global.cfg_templets_skin/}/picture/00.jpg) no-repeat center top;"></li>
+	</ul>
+
+	<ul class="DB_imgSet">
+		<li>
+			<img src="{dede:global.cfg_templets_skin/}/picture/01.png" alt="" border="0" class="DB_1_1">
+			<img src="{dede:global.cfg_templets_skin/}/picture/02.png" alt="" border="0" class="DB_1_2">
+			<img src="{dede:global.cfg_templets_skin/}/picture/03a.png" alt="" border="0" class="DB_1_3">
+			<img src="{dede:global.cfg_templets_skin/}/picture/03b.png" alt="" border="0" class="DB_1_4">
+			<img src="{dede:global.cfg_templets_skin/}/picture/03c.png" alt="" border="0" class="DB_1_5">
+			<img src="{dede:global.cfg_templets_skin/}/picture/03d.png" alt="" border="0" class="DB_1_6">
+			<img src="{dede:global.cfg_templets_skin/}/picture/03e.png" alt="" border="0" class="DB_1_7">
+				</li>
+
+		
+		<li>
+		<img src="{dede:global.cfg_templets_skin/}/picture/1.png" alt="" border="0" class="DB_2_1">
+		<img src="{dede:global.cfg_templets_skin/}/picture/2.png" alt="" border="0" class="DB_2_2">
+		<img src="{dede:global.cfg_templets_skin/}/picture/3.png" alt="" border="0" class="DB_2_3">
+		<img src="{dede:global.cfg_templets_skin/}/picture/4.png" alt="" border="0" class="DB_2_4">
+		<img src="{dede:global.cfg_templets_skin/}/picture/5.png" alt="" border="0" class="DB_2_5">
+		</li>
+		
+		
+		
+	</ul>
+</div>
+	<div class="DB_menuWrap">
+		<ul class="DB_menuSet">
+			<li class='select'><img src="{dede:global.cfg_templets_skin/}/picture/btn_off.png" alt=""></li>
+			<li><img src="{dede:global.cfg_templets_skin/}/picture/btn_off.png" alt=""></li>
+		</ul>
+		<div class="DB_next"><img src="{dede:global.cfg_templets_skin/}/picture/nextarrow.png" alt="NEXT"></div>
+		<div class="DB_prev"><img src="{dede:global.cfg_templets_skin/}/picture/prevarrow.png" alt="PREV"></div>
+	</div>
+
+</div>
+<script type="text/javascript">
+$('.DB_tab25').DB_tabMotionBanner({
+	key:'b28551',
+	autoRollingTime:10000,                            
+	bgSpeed:500,
+	motion:{
+	DB_1_1:{top:-50,opacity:0,speed:1000,delay:3000},
+		DB_1_1:{top:50,opacity:0,speed:1000,delay:500},
+		DB_1_2:{left:-50,opacity:0,speed:1000,delay:1000},
+		DB_1_3:{top:-20,opacity:0,speed:1000,delay:2000},
+		DB_1_4:{top:-20,opacity:0,speed:1000,delay:1800},
+		DB_1_5:{top:20,opacity:0,speed:1000,delay:1500},
+		DB_1_6:{top:-20,opacity:0,speed:1000,delay:1800},
+		DB_1_7:{top:-20,opacity:0,speed:1000,delay:2000},
+	
+		
+		
+		DB_2_1:{left:50,opacity:0,speed:1000,delay:500},
+		DB_2_2:{left:40,opacity:0,speed:1000,delay:800},
+		DB_2_3:{top:50,opacity:0,speed:1000,delay:2000},
+		DB_2_4:{top:50,opacity:0,speed:1000,delay:2500},
+		DB_2_5:{top:-20,opacity:0,speed:1000,delay:1000},
+		/*
+		DB_3_1:{left:-50,opacity:0,speed:1000,delay:500},
+		DB_3_2:{top:50,opacity:0,speed:1000,delay:1000},
+		DB_3_3:{top:0,opacity:0,speed:1000,delay:1500},
+		
+		DB_4_1:{top:50,opacity:0,speed:1000,delay:500},
+		DB_4_2:{top:0,opacity:0,speed:1000,delay:1000},
+		DB_4_3:{top:0,opacity:0,speed:1000,delay:1500},
+		DB_4_4:{top:30,opacity:0,speed:1000,delay:2000},
+		DB_4_5:{top:100,opacity:0,speed:1000,delay:3000},
+	
+		DB_5_1:{left:-50,opacity:0,speed:1000,delay:500},
+		DB_5_2:{top:50,opacity:0,speed:1000,delay:1000},
+		DB_5_3:{top:0,opacity:0,speed:1000,delay:1500},
+		*/
+		end:null
+	}
+})
+</script>
+
+
+</div>
+
+
+
+<div class="pingpai" id="pro" >
+
+	<h1>集团公司品牌、旅游景区网站平台、电子商务、文创产业网络全案创意营销，龙稚科技十年建站经验+品牌服务首选机构</h1>
+	<h2>公司提供数字品牌全案策划、旅游景区网络平台解决方案、移动微信运营开发、高端网站制作、网络营销策划传的服务</h2>
+	<h3>我们的优势不只是提供专业的网站设计服务，我们己为知名企业和景点提供数字代运营创意和网络营销解决方案</h3>
+</div>
+
+
+<!--服务-->
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/indexservice.js"></script>
+<div class="Service">
+	<div class="Services">
+		<div class="ServiceList">
+		<a href="/a/wangzhanjianshe">
+		<div class="ServiceLists">
+	
+			<div class="top"><img src="{dede:global.cfg_templets_skin/}/picture/xma1.png" alt="网站建设"  /></div>
+			<div class="title"><span>网站建设</span><br />
+			WEB DESIGN</div>
+		<div class="com">专业的网站设计及开发服务，包括品牌网站、房产网站、集团网站、企业网站、营销型网站、视交及应用类网站等</div>
+		
+		<div class="tops"><img src="{dede:global.cfg_templets_skin/}/picture/xma2.png" alt="网站建设"  /></div>
+			<div class="titles"><span>网站建设</span><br />
+			WEB DESIGN</div>
+		<div class="coms">专业的网站设计及开发服务，包括品牌网站、房产网站、集团网站、企业网站、营销型网站、视交及应用类网站等</div>
+			<img src="{dede:global.cfg_templets_skin/}/picture/r4_c11.gif" class="imgs" width="280" height="330" alt="网站建设背景"   />
+		</div>
+	
+	</a>
+	
+	
+	</div>
+	
+		<div class="ServiceList">
+		<a href="javascript:">
+		<div class="ServiceLists">
+	
+			<div class="top"><img src="{dede:global.cfg_templets_skin/}/picture/xmb1.png" alt="手机网站"/></div>
+			<div class="title"><span>移动终端开发</span><br />
+			WEB DESIGN</div>
+		<div class="com">手机网站建设，微官网建设、微信二次开发、APP应用开发、为移动设备、平板电脑、移动产品等终端提供交互流程及界面设计服务。包括IOS、Android、Win等。</div>
+		
+		<div class="tops"><img src="{dede:global.cfg_templets_skin/}/picture/xmb2.png"  alt="手机网站" /></div>
+			<div class="titles"><span>移动终端开发</span><br />
+			WEB DESIGN</div>
+		<div class="coms">手机网站建设，微官网建设、微信二次开发、APP应用开发、为移动设备、平板电脑、移动产品等终端提供交互流程及界面设计服务。包括IOS、Android、Win等。</div>
+			<img src="{dede:global.cfg_templets_skin/}/picture/r4_c11.gif" width="280" height="330" class="imgs" alt="手机网站详背景" //>		</div>
+	
+	</a>
+	
+	
+	</div>
+	
+		<div class="ServiceList">
+		<a href="javascript:">
+		<div class="ServiceLists">
+	
+			<div class="top"><img src="{dede:global.cfg_templets_skin/}/picture/xmc1.png" alt="企业视觉设计" /></div>
+			<div class="title"><span>视觉设计</span><br />
+			WEB DESIGN</div>
+		<div class="com">企业及软件的LOGO设计，企业公司的VI以及各类标识和平面传播类设计、店铺策划装修、网站专题包装设计、交互动画设计等</div>
+		
+		<div class="tops"><img src="{dede:global.cfg_templets_skin/}/picture/xmc2.png"  alt="企业视觉设计" /></div>
+			<div class="titles"><span>视觉设计</span><br />
+			WEB DESIGN</div>
+		<div class="coms">企业及软件的LOGO设计，企业公司的VI以及各类标识和平面传播类设计、店铺策划装修、网站专题包装设计、交互动画设计等</div>
+			<img src="{dede:global.cfg_templets_skin/}/picture/r4_c11.gif" class="imgs" width="280" height="330" alt="企业视觉设计背景" />
+		</div>
+	
+		</a>
+	
+	
+	</div>
+	
+		<div class="ServiceList">
+		<a href="javascript:">
+		<div class="ServiceLists">
+	
+			<div class="top"><img src="{dede:global.cfg_templets_skin/}/picture/xmd1.png" alt="网站策划营销" /></div>
+			<div class="title"><span>策划营销</span><br />
+			WEB DESIGN</div>
+		<div class="com">
+		+ 网站SEO搜索引擎优化<br />
+		+ 网站售后增值维护推广<br />
++ 网站维护托管服务<br />
++ 网站后期维护运营人才培训<br />
++ 微信营销/问答营销/软文发布/信誉提升
+		
+		</div>
+		
+		<div class="tops"><img src="{dede:global.cfg_templets_skin/}/picture/xmd2.png"  alt="网站策划营销" /></div>
+			<div class="titles"><span>策划营销</span><br />
+			WEB DESIGN</div>
+		<div class="coms">+ 网站SEO搜索引擎优化<br />
+		+ 网站售后增值维护推广<br />
++ 网站维护托管服务<br />
++ 网站后期维护运营人才培训<br />
++ 微信营销/问答营销/软文发布/信誉提升
+</div>
+			<img src="{dede:global.cfg_templets_skin/}/picture/r4_c11.gif" class="imgs" width="280" height="330" alt="网站策划营销背景" />
+		</div>
+	
+		</a>
+	
+	
+	</div>
+	
+	<div class="ServiceMore">
+	
+	<div class="W_service">
+  
+        <div class="W_slist">
+        <ul><li class="p"><a href="javascript:"><span class="sd"></span><span class="rad"><i class="icon"></i></span>
+		<div class="title">企业网站</div>
+		
+		</a>
+		
+		
+		</li>
+        <li class="b"><a href="javascript:" ><span class="sd"></span><span class="rad"><i class="icon"></i></span>
+		<div class="title">网站建设</div>
+		</a></li>
+        <li class="t"><a href="javascript:" ><span class="sd"></span><span class="rad"><i class="icon"></i></span>
+		<div class="title">网站创意</div>
+		</a></li>
+        <li class="y"><a href="javascript:" ><span class="sd"></span><span class="rad"><i class="icon"></i></span>
+		<div class="title">网站设计</div>
+		</a>
+		
+		
+		
+		</li>
+        <li class="m"><a href="javascript:" title="手机网站/MOBILE"><span class="sd"></span><span class="rad"><i class="icon"></i></span>
+		<div class="title">网站推广</div>
+		</a></li>
+        <li class="e"><a href="javascript:" title="电商网站/E-COMMERCE"><span class="sd"></span><span class="rad"><i class="icon"></i></span>
+		<div class="title">网站营销</div>
+		</a></li>
+        </ul>
+        
+        </div>
+	  </div>
+
+	
+	  </div>
+	</div>
+</div>
+<!--结束-->
+<!--案例-->
+
+<div class="Case" id="news">
+
+	<div class="CaseHead">
+		<div class="left">
+			<div class="leftDiv">让案例来说话</div>
+			<div class="leftDivs">VISION IDEA</div>
+		</div>
+		
+		<div class="coms">网络营销领域从业超过10年！<br />
+我们了解大中小型企业的经营模式，需求，我们倡导让客户感知产品应用体验价值，而不仅是产品的功能介绍。</div>
+	    <div class="right"><img src="{dede:global.cfg_templets_skin/}/picture/r11_c23.gif" alt="桂林456案例" /></div>
+	</div>
+	
+	<div class="CaseBody">
+	<!-- lise-->
+	
+			
+{dede:arclist row='8' titlelen='50' typeid='5' infolen='88'}	
+<div class="list">
+	<div class="lists">
+	<a href="[field:arcurl/]" class="imgs"><img src="[field:litpic/]" onerror="this.src='/include/noPic.jpg'" border="0"/></a>
+	<div class="title"><a href="[field:arcurl/]">[field:title/]</a></div>
+	<div class="coms">[field:info/]...</div>
+	<span class="a1"></span>
+	<span class="a2"></span>
+	<span class="a3"></span>
+	<span class="a4"></span>
+	<span class="a5"></span>	</div>
+</div>	
+{/dede:arclist}
+  <!----------------------------->
+
+	</div>
+	
+	<div class="CaseMore"><a href="/a/jingdiananli">MORE</a>
+	
+	<span class="a1"></span>
+	<span class="a2"></span>
+	<span class="a3"></span>
+	<span class="a4"></span>
+	</div>
+	
+	
+	
+</div>
+<!--结束-->
+
+<div class="GgBody" id="ser">
+	<div class="GgBodys"><img src="{dede:global.cfg_templets_skin/}/picture/r22_c6.jpg" name="Gg1" id="Gg1" alt="宣传型网站建设" /><img src="{dede:global.cfg_templets_skin/}/picture/r22_c6s.jpg" id="Gg2" alt="电子名片设计" /><img src="{dede:global.cfg_templets_skin/}/picture/r22_c6es.jpg" id="Gg3" alt="360度全景展示" /></div>
+</div>
+
+
+
+<!--关于我们-->
+<div class="WhyBos">
+<div class="Why" id="con">
+
+	<div class="WhyLeft">
+		<div class="top">
+			<div class="topTitle">选择我们？</div>
+			<div class="topComs">我们从不靠有数量无质量制作网站来盈利，我们追求是设计质量，<br />
+我们有自己严敬的设计理念和要求，我们不做低价建站业务，拒绝平庸！只服务卓越的您！</div>
+		</div>
+		
+	<div class="pro">
+	<img src="{dede:global.cfg_templets_skin/}/picture/pro.jpg" alt="专业" />
+	
+	<div class="poeComs">
+	
+	多年沉淀汇聚行业设计精英团队<br />
+十年坚持始终追球细节完美品质<br />
+设计精英汇聚把绝平庸，独特品味	</div>
+	</div>
+	
+	<div class="ser"><img src="{dede:global.cfg_templets_skin/}/picture/ser.jpg" width="133" height="66" alt="服务" />
+	
+	<div class="poeComs">
+	
+	丰富网站制作的经验&nbsp; 方便&nbsp; 省心 <br />
+	商端的网站设计创意   
+	 &nbsp;诚信&nbsp; 放心 <br />
+	 完善的品质售后服务&nbsp; 创新&nbsp; 合作
+	</div>
+	</div>
+	
+	<div class="ser"><img src="{dede:global.cfg_templets_skin/}/picture/kp.jpg" width="133" height="66" alt="口碑" />
+	
+	<div class="poeComs">广西最具影响力的机构之一<br /> 
+	  最深受客户欢迎网站建设服务品牌
+<br />
+一站式网站制作、推广，营销服务提供商</div>
+	</div>
+	
+	
+	
+	<div class="WhyLeftCom"><div class="fontStar">★★★★★</div>
+<span class="fontH1">信心六大保障</span> <span class="fontcom">&nbsp; 项目完成后提供</span> </div>
+	
+	<div class="WhyLeftComBody"><img src="{dede:global.cfg_templets_skin/}/picture/r27_c4.jpg" alt="网站设计及制作流程" /></div>
+	</div>
+		<div class="WhyRight">
+			<div class="HeadTop">&nbsp; 10年磨砺，为专业网站设计团队，为企业提供更优质的商端设计解决方案			</div>
+			<div class="bodys">
+				<div class="W_title1" id="w_t1">10年开发经验</div>
+				<div class="W_title2" id="w_t4">各行各业<br />
+的设计图片</div>
+			<div class="W_title3" id="w_t2">原创设计</div>
+			<div class="W_title4" id="w_t3">本地<br />
+大企业的选择</div>
+			</div>
+		
+		</div>
+
+</div>
+</div>
+<!--结束-->
+
+
+<!--新闻中心-->
+
+<div class="IndexNew" >
+
+	<div class="IndexNewhead">
+		<div class="title">
+		<div class="title1">新闻观点</div>
+		<div class="title2">SHARE</div>
+		</div>
+		
+		<div class="IndexNewComs">技艺是无价之宝，知识是智慧的明灯，想法比知识更好的朋友。</div>
+	</div>
+	<div class="IndexNewBody">
+		<div class="IndexNewBodys">
+			<div class="I_NewTitle">
+			<div class="chinas">{dede:type typeid='18'}[field:typename/]{/dede:type} </div> 
+			<div class="ens">Website Help </div>
+			</div>
+		{dede:arclist row='7' titlelen='50' typeid='18'}	
+            <div class="I_NewList"> <a href="[field:arcurl/]" title="[field:title/]">[field:title/]</a></div>
+        {/dede:arclist}
+		<div class="I_NewMore">{dede:type typeid='18'}<a href="[field:typeurl/]">{/dede:type}More</a></div>
+		</div>
+	
+		<div class="IndexNewBodys">
+			<div class="I_NewTitle">
+			<div class="chinas">
+			{dede:type typeid='17'}[field:typename/]{/dede:type}</div> 
+			<div class="ens">Share Knowledge </div>
+			</div>
+		{dede:arclist row='7' titlelen='50' typeid='17'}	
+            <div class="I_NewList"> <a href="[field:arcurl/]" title="[field:title/]">[field:title/]</a></div>
+		{/dede:arclist}
+		<div class="I_NewMore">{dede:type typeid='17'}<a href="[field:typeurl/]">{/dede:type}More</a></div>
+		</div>
+		
+		<div class="IndexNewBodys">
+			<div class="I_NewTitle">
+			<div class="chinas">
+			{dede:type typeid='16'}[field:typename/]{/dede:type}</div> 
+			<div class="ens">Signing Dynamic</div>
+			</div>
+            {dede:arclist row='7' titlelen='50' typeid='16'}	
+				<div class="I_NewList"> <a href="[field:arcurl/]" title="[field:title/]">[field:title/]</a></div>
+            {/dede:arclist}
+		<div class="I_NewMore">{dede:type typeid='16'}<a href="[field:typeurl/]">{/dede:type} More</a></div>
+		</div>
+	</div>
+
+</div>
+
+<!---->
+
+<div class="WeBody" id="job">
+
+	<div class="WeBodyHead">
+		<div class="title">合作伙伴</div>
+	
+	</div>
+	<div class="WeBodyTop">
+		<div class="WeBodyTopLeft"></div>
+		<div class="WeBodyTopRight">
+			<div class="title">我们，因为您而在</div>
+			<div class="coms">龙稚科技这八年在国内外的客户名单已超过数百家多，客户包括各行各业，这些都是我们在信心赢得顾客良好口碑和高端满意的依据，唯有客户的满意才是我们努力上进的原动力。</div>
+		</div>
+	</div>
+  <div class="WeBodyHp">
+	<ul>	
+	{dede:arclist row='28'  titlelen='30' typeid='22'}
+        <li><a href="#this" rel="nofollow"><span><img src="[field:litpic/]" /></span></a></li>
+	{/dede:arclist}
+    </ul>
+  </div>
+  <div class="More">{dede:type typeid='22'}<a href="[field:typeurl/]">{/dede:type}MORE</a></div>
+</div>
+<div class="IndexLink">
+	<div class="IndexLinkBody">
+		<div class="IndexLinkLEft">
+			<div class="title">友情链接</div>
+		
+		</div>
+		<div class="IndexLinkRight">
+        {dede:flink row='21' typeid=""}
+            [field:link /]
+        {/dede:flink}
+        </div>
+		<div class="Indeexmenue">
+        <a href="/">首页</a>
+        {dede:channel type='top' row='6'}
+             | <a href="[field:typeurl/]">[field:typename/]</a>
+        {/dede:channel} 
+       </div>
+	</div>
+</div>
+{dede:include filename="footer.htm"/}
+<style>
+.WeBodyHp{ height:auto}
+.WeBodyHp,.WeBodyHp li{ overflow:hidden}
+</style>
+</body>
+</html>
+

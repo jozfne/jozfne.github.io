@@ -1,13 +1,13 @@
 /* CSS Document */
 @media (max-width: 320px){
-	.navbar-header{height:47px;}
+	.navbar-header{height:90px;}
 	.logo{ width:102px;height:47px;}
 	.banner{width:122px;height:47px;}
 	 #Gg1{width:200px; height:176px; }
 	 #Gg2{width:200px; height:176px; }
 	 #Gg3{width:200px; height:176px; }
-	 .GgBody {height:200px;height:200px;background:url(../images/r21_c2.gif) repeat-x left top;}
-	 .W_slist{display:none;}
+	 .GgBody {display:none;}
+	 .W_slist{display:hidden}
  	 .W_slist ul{display:none;}
   	 .W_slist ul li{display:none;}
 	 .GStop{display:none;}

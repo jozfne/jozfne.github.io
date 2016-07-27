@@ -5,10 +5,12 @@
 	 #Gg1{width:200px; height:176px; }
 	 #Gg2{width:200px; height:176px; }
 	 #Gg3{width:200px; height:176px; }
+	 .GgBody {height:200px;background:url(../images/r21_c2.gif) repeat-x left top;}
 	 .W_slist{display:none;}
 	 .GStop{display:none;}
 	 .HeadTop img{display:none;}
 	 .WhyLeftComBody{display:none;}
+	 .ServiceLists{width:100%;}
 	}
 @media (max-width: 640px){
 	.GgBody img{

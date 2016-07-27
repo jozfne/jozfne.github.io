@@ -1,4 +1,13 @@
 /* CSS Document */
+@media (max-width: 320px){
+	.logo{ width:102px;height:47px;}
+	.banner{width:122px;height:47px;}
+	}
+@media (max-width: 640px){
+	.GgBody img{
+		width:200px; height:176px;
+		}
+	}
 .cur{background:url(../images/menu.gif);}
 .inav{ float:left; position:relative; }
 .inav ul{ padding:0px; margin:0px;}

@@ -14,11 +14,11 @@
 	 .fontStar{display:none;}
 	 .HeadTop img{display:none;}
 	 .WhyLeftComBody{display:none;}
-.ServiceList{ width:370px; height:350px; float:left;}
+.ServiceList{ width:300px; height:350px; float:left;}
 .ServiceList a{ color:#666;}
-.ServiceLists{left:25px;width:330px;height:330px;position:relative;overflow: hidden; background-color:#F7F7F7; }
-.ServiceLists .top{ width:330px; height:118px; text-align:center; padding-top:12px; position:absolute; left:0px;}
-.ServiceLists .title{ width:330px; height:52px; text-align:center;  line-height:20px; padding-top:5px; position:absolute; left:0px; top:130px; }
+.ServiceLists{left:25px;width:300px;height:300px;position:relative;overflow: hidden; background-color:#F7F7F7; }
+.ServiceLists .top{ width:300px; height:118px; text-align:center; padding-top:12px; position:absolute; left:0px;}
+.ServiceLists .title{ width:300px; height:52px; text-align:center;  line-height:20px; padding-top:5px; position:absolute; left:0px; top:130px; }
 .ServiceLists .title span{ color:#2A2B2C;font-size:18px; line-height:16px;}
 .ServiceLists .com{ width:300px; height:140px; line-height:22px; left:16px; position:absolute; top:180px;z-index:800;}
 
@@ -28,29 +28,30 @@
 .ServiceLists .coms{ width:330px; height:140px; line-height:22px; position:absolute; left:280px; top:180px;z-index:800; color:#888888;}
 	}
 @media (max-width: 414px){
-		.navbar-header{height:47px;}
+		.cur{display:none;}
+	.navbar-header{height:47px;}
 	.logo img{ width:102px;height:47px; margin:0px; padding:0px;}
 	.banner img{width:120px;height:47px;}
-	.ServiceLists{left:80px;width:330px;height:330px;position:relative;overflow: hidden; background-color:#F7F7F7; }
+	.ServiceLists{left:60px;width:410px;height:330px;position:relative;overflow: hidden; background-color:#F7F7F7; }
 	 .goodsome{display:none;overflow:hidden;}
-	.GgBody {width:400px;}
+	.GgBody {width:414px;}
 	.GStop{display:none;}
     .HeadTop img{display:none;}
 	.fontStar{display:none;}
 	 .WhyLeftComBody{display:none;}
+ 	 #Gg1{width:200px; height:176px; }
+	 #Gg2{width:200px; height:176px; }
+	 #Gg3{width:200px; height:176px; }
 	}
 @media (max-width: 640px){
-	.GgBody{
-		width:640px;
-		}
+    .HeadTop img{left:15px;}
+	.GgBody{padding:0 25px;}
 	 #Gg1{width:386px; height:338px; }
 	 #Gg2{width:386px; height:338px; }
 	 #Gg3{width:386px; height:338px;}
 	}
 @media (max-width: 1024px){
-		.GgBody{
-		width:1024px;
-		}
+.GgBody{padding-top:35px;padding-bottom:35px;}
 	 #Gg1{width:320px; height:280px; }
 	 #Gg2{width:320px; height:280px; }
 	 #Gg3{width:320px; height:280px;}
@@ -119,12 +120,12 @@ text-decoration:none;outline:none;blr:expression(this.onFocus=this.blur());
 .ServiceLists{
 	width:230px;height:330px;position:relative;overflow: hidden; background-color:#F7F7F7; 
 }
-
+.GgBody{padding-top:25px;padding-bottom:25px;width:340px;margin:0 auto;}
 .ServiceLists .top{ width:230px; height:118px; text-align:center; padding-top:12px; position:absolute; left:0px;}
 .ServiceLists .title{ width:230px; height:52px; text-align:center;  line-height:20px; padding-top:5px; position:absolute; left:0px; top:130px; }
 .ServiceLists .title span{ color:#2A2B2C;font-size:18px; line-height:16px;}
 .ServiceLists .com{ width:200px; height:140px; line-height:22px; left:16px; position:absolute; top:180px;z-index:800;}
-
+    .HeadTop img{left:15px;}
 .ServiceLists .tops{ width:250px; height:118px; text-align:center; padding-top:12px;  position:absolute; left:-275px; z-index:800;}
 .ServiceLists .titles{ width:250px; height:52px; text-align:center;  line-height:20px; padding-top:5px; position:absolute; left:280px; top:130px; color:#FF6600; z-index:800;}
 .ServiceLists .titles span{ color:#2A2B2C;font-size:18px;color:#FF6600;line-height:16px;}
@@ -221,11 +222,8 @@ list-style:none; padding:0px; margin:0px;width: 86px;overflow: hidden;height: 10
 	background-color: #00ABB3;
 }
 /**/
-.GgBody{ height:442px; background:url(../images/r21_c2.gif) repeat-x left top;}
-.GgBody img{ width:386px; height:338px; padding-top:25px;}
-@media (max-width: 767px){
-.GgBody img{width:486px; height:358px; padding-top:25px;}
-}
+.GgBody{ background:url(../images/r21_c2.gif) repeat-x left top;}
+.GgBody img{ width:386px; height:338px; padding:0 25px;}
 .GStop{ height:110px; float:left; background:url(../images/s_r24_c4.gif) no-repeat 20px 24px; padding-top:24px; padding-left:105px;}
 .topTitle{ width:448px; height:41px; padding-left:2px; text-align:left; font-size:30px; font-weight:bold; color:#2a2b2c; padding-top:2px;}
 .poeComs{ height:63px; line-height:24px;color:#666666;font-family:"微软雅黑", "黑体";}
@@ -261,3 +259,26 @@ opacity:50;/*其他，透明度50%*/
 
 .footers{height:87px; padding:25px 25px; text-align:center; line-height:20px; }
 
+
+
+.Zyflash{ width:100%; height:200px; padding-top:120px;}
+.Servs{ width:127px; height:127px;margin:0 auto; background:url(../images/s_r2_c2.jpg) no-repeat center bottom;background-position: 50% 0%;text-align:center;}
+.servgrid{height:180px;}
+.Servs img{	
+	width: 61px;
+    height: 94px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;}
+.Servstitle {
+    width: 127px;
+    height: 54px;
+    line-height: 54px;
+    font-size: 18px;
+	padding-top:25px;
+}
